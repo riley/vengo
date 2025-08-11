@@ -1,0 +1,1356 @@
+{
+  "verbs": [
+    {
+      "verb": "ser",
+      "tenses": {
+        "present": [
+          "soy",
+          "eres",
+          "es",
+          "somos",
+          "son"
+        ],
+        "preterite": [
+          "fui",
+          "fuiste",
+          "fue",
+          "fuimos",
+          "fueron"
+        ],
+        "imperfect": [
+          "era",
+          "eras",
+          "era",
+          "éramos",
+          "eran"
+        ],
+        "conditional": [
+          "sería",
+          "serías",
+          "sería",
+          "seríamos",
+          "serían"
+        ],
+        "future": [
+          "seré",
+          "serás",
+          "será",
+          "seremos",
+          "serán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "sé",
+          "sea",
+          "seamos",
+          "sean"
+        ],
+        "negative": [
+          "no seas",
+          "no sea",
+          "no seamos",
+          "no sean"
+        ]
+      }
+    },
+    {
+      "verb": "estar",
+      "tenses": {
+        "present": [
+          "estoy",
+          "estás",
+          "está",
+          "estamos",
+          "están"
+        ],
+        "preterite": [
+          "estuve",
+          "estuviste",
+          "estuvo",
+          "estuvimos",
+          "estuvieron"
+        ],
+        "imperfect": [
+          "estaba",
+          "estabas",
+          "estaba",
+          "estábamos",
+          "estaban"
+        ],
+        "conditional": [
+          "estaría",
+          "estarías",
+          "estaría",
+          "estaríamos",
+          "estarían"
+        ],
+        "future": [
+          "estaré",
+          "estarás",
+          "estará",
+          "estaremos",
+          "estarán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "está",
+          "esté",
+          "estemos",
+          "estén"
+        ],
+        "negative": [
+          "no estés",
+          "no esté",
+          "no estemos",
+          "no estén"
+        ]
+      }
+    },
+    {
+      "verb": "tener",
+      "tenses": {
+        "present": [
+          "tengo",
+          "tienes",
+          "tiene",
+          "tenemos",
+          "tienen"
+        ],
+        "preterite": [
+          "tuve",
+          "tuviste",
+          "tuvo",
+          "tuvimos",
+          "tuvieron"
+        ],
+        "imperfect": [
+          "tenía",
+          "tenías",
+          "tenía",
+          "teníamos",
+          "tenían"
+        ],
+        "conditional": [
+          "tendría",
+          "tendrías",
+          "tendría",
+          "tendríamos",
+          "tendrían"
+        ],
+        "future": [
+          "tendré",
+          "tendrás",
+          "tendrá",
+          "tendremos",
+          "tendrán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "ten",
+          "tenga",
+          "tengamos",
+          "tengan"
+        ],
+        "negative": [
+          "no tengas",
+          "no tenga",
+          "no tengamos",
+          "no tengan"
+        ]
+      }
+    },
+    {
+      "verb": "haber",
+      "tenses": {
+        "present": [
+          "he",
+          "has",
+          "ha",
+          "hemos",
+          "han"
+        ],
+        "preterite": [
+          "hube",
+          "hubiste",
+          "hubo",
+          "hubimos",
+          "hubieron"
+        ],
+        "imperfect": [
+          "había",
+          "habías",
+          "había",
+          "habíamos",
+          "habían"
+        ],
+        "conditional": [
+          "habría",
+          "habrías",
+          "habría",
+          "habríamos",
+          "habrían"
+        ],
+        "future": [
+          "habré",
+          "habrás",
+          "habrá",
+          "habremos",
+          "habrán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        "negative": [
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      }
+    },
+    {
+      "verb": "ir",
+      "tenses": {
+        "present": [
+          "voy",
+          "vas",
+          "va",
+          "vamos",
+          "van"
+        ],
+        "preterite": [
+          "fui",
+          "fuiste",
+          "fue",
+          "fuimos",
+          "fueron"
+        ],
+        "imperfect": [
+          "iba",
+          "ibas",
+          "iba",
+          "íbamos",
+          "iban"
+        ],
+        "conditional": [
+          "iría",
+          "irías",
+          "iría",
+          "iríamos",
+          "irían"
+        ],
+        "future": [
+          "iré",
+          "irás",
+          "irá",
+          "iremos",
+          "irán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "ve",
+          "vaya",
+          "vayamos",
+          "vayan"
+        ],
+        "negative": [
+          "no vayas",
+          "no vaya",
+          "no vayamos",
+          "no vayan"
+        ]
+      }
+    },
+    {
+      "verb": "hacer",
+      "tenses": {
+        "present": [
+          "hago",
+          "haces",
+          "hace",
+          "hacemos",
+          "hacen"
+        ],
+        "preterite": [
+          "hice",
+          "hiciste",
+          "hizo",
+          "hicimos",
+          "hicieron"
+        ],
+        "imperfect": [
+          "hacía",
+          "hacías",
+          "hacía",
+          "hacíamos",
+          "hacían"
+        ],
+        "conditional": [
+          "haría",
+          "harías",
+          "haría",
+          "haríamos",
+          "harían"
+        ],
+        "future": [
+          "haré",
+          "harás",
+          "hará",
+          "haremos",
+          "harán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "haz",
+          "haga",
+          "hagamos",
+          "hagan"
+        ],
+        "negative": [
+          "no hagas",
+          "no haga",
+          "no hagamos",
+          "no hagan"
+        ]
+      }
+    },
+    {
+      "verb": "poder",
+      "tenses": {
+        "present": [
+          "puedo",
+          "puedes",
+          "puede",
+          "podemos",
+          "pueden"
+        ],
+        "preterite": [
+          "pude",
+          "pudiste",
+          "pudo",
+          "pudimos",
+          "pudieron"
+        ],
+        "imperfect": [
+          "podía",
+          "podías",
+          "podía",
+          "podíamos",
+          "podían"
+        ],
+        "conditional": [
+          "podría",
+          "podrías",
+          "podría",
+          "podríamos",
+          "podrían"
+        ],
+        "future": [
+          "podré",
+          "podrás",
+          "podrá",
+          "podremos",
+          "podrán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "puede",
+          "pueda",
+          "podamos",
+          "puedan"
+        ],
+        "negative": [
+          "no puedas",
+          "no pueda",
+          "no podamos",
+          "no puedan"
+        ]
+      }
+    },
+    {
+      "verb": "decir",
+      "tenses": {
+        "present": [
+          "digo",
+          "dices",
+          "dice",
+          "decimos",
+          "dicen"
+        ],
+        "preterite": [
+          "dije",
+          "dijiste",
+          "dijo",
+          "dijimos",
+          "dijeron"
+        ],
+        "imperfect": [
+          "decía",
+          "decías",
+          "decía",
+          "decíamos",
+          "decían"
+        ],
+        "conditional": [
+          "diría",
+          "dirías",
+          "diría",
+          "diríamos",
+          "dirían"
+        ],
+        "future": [
+          "diré",
+          "dirás",
+          "dirá",
+          "diremos",
+          "dirán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "di",
+          "diga",
+          "digamos",
+          "digan"
+        ],
+        "negative": [
+          "no digas",
+          "no diga",
+          "no digamos",
+          "no digan"
+        ]
+      }
+    },
+    {
+      "verb": "ver",
+      "tenses": {
+        "present": [
+          "veo",
+          "ves",
+          "ve",
+          "vemos",
+          "ven"
+        ],
+        "preterite": [
+          "vi",
+          "viste",
+          "vio",
+          "vimos",
+          "vieron"
+        ],
+        "imperfect": [
+          "veía",
+          "veías",
+          "veía",
+          "veíamos",
+          "veían"
+        ],
+        "conditional": [
+          "vería",
+          "verías",
+          "vería",
+          "veríamos",
+          "verían"
+        ],
+        "future": [
+          "veré",
+          "verás",
+          "verá",
+          "veremos",
+          "verán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "ve",
+          "vea",
+          "veamos",
+          "vean"
+        ],
+        "negative": [
+          "no veas",
+          "no vea",
+          "no veamos",
+          "no vean"
+        ]
+      }
+    },
+    {
+      "verb": "dar",
+      "tenses": {
+        "present": [
+          "doy",
+          "das",
+          "da",
+          "damos",
+          "dan"
+        ],
+        "preterite": [
+          "di",
+          "diste",
+          "dio",
+          "dimos",
+          "dieron"
+        ],
+        "imperfect": [
+          "daba",
+          "dabas",
+          "daba",
+          "dábamos",
+          "daban"
+        ],
+        "conditional": [
+          "daría",
+          "darías",
+          "daría",
+          "daríamos",
+          "darían"
+        ],
+        "future": [
+          "daré",
+          "darás",
+          "dará",
+          "daremos",
+          "darán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "da",
+          "dé",
+          "demos",
+          "den"
+        ],
+        "negative": [
+          "no des",
+          "no dé",
+          "no demos",
+          "no den"
+        ]
+      }
+    },
+    {
+      "verb": "saber",
+      "tenses": {
+        "present": [
+          "sé",
+          "sabes",
+          "sabe",
+          "sabemos",
+          "saben"
+        ],
+        "preterite": [
+          "supe",
+          "supiste",
+          "supo",
+          "supimos",
+          "supieron"
+        ],
+        "imperfect": [
+          "sabía",
+          "sabías",
+          "sabía",
+          "sabíamos",
+          "sabían"
+        ],
+        "conditional": [
+          "sabría",
+          "sabrías",
+          "sabría",
+          "sabríamos",
+          "sabrían"
+        ],
+        "future": [
+          "sabré",
+          "sabrás",
+          "sabrá",
+          "sabremos",
+          "sabrán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "sabe",
+          "sepa",
+          "sepamos",
+          "sepan"
+        ],
+        "negative": [
+          "no sepas",
+          "no sepa",
+          "no sepamos",
+          "no sepan"
+        ]
+      }
+    },
+    {
+      "verb": "querer",
+      "tenses": {
+        "present": [
+          "quiero",
+          "quieres",
+          "quiere",
+          "queremos",
+          "quieren"
+        ],
+        "preterite": [
+          "quise",
+          "quisiste",
+          "quiso",
+          "quisimos",
+          "quisieron"
+        ],
+        "imperfect": [
+          "quería",
+          "querías",
+          "quería",
+          "queríamos",
+          "querían"
+        ],
+        "conditional": [
+          "querría",
+          "querrías",
+          "querría",
+          "querríamos",
+          "querrían"
+        ],
+        "future": [
+          "querré",
+          "querrás",
+          "querrá",
+          "querremos",
+          "querrán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "quiere",
+          "quiera",
+          "queramos",
+          "quieran"
+        ],
+        "negative": [
+          "no quieras",
+          "no quiera",
+          "no queramos",
+          "no quieran"
+        ]
+      }
+    },
+    {
+      "verb": "llegar",
+      "tenses": {
+        "present": [
+          "llego",
+          "llegas",
+          "llega",
+          "llegamos",
+          "llegan"
+        ],
+        "preterite": [
+          "llegué",
+          "llegaste",
+          "llegó",
+          "llegamos",
+          "llegaron"
+        ],
+        "imperfect": [
+          "llegaba",
+          "llegabas",
+          "llegaba",
+          "llegábamos",
+          "llegaban"
+        ],
+        "conditional": [
+          "llegaría",
+          "llegarías",
+          "llegaría",
+          "llegaríamos",
+          "llegarían"
+        ],
+        "future": [
+          "llegaré",
+          "llegarás",
+          "llegará",
+          "llegaremos",
+          "llegarán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "llega",
+          "llegue",
+          "lleguemos",
+          "lleguen"
+        ],
+        "negative": [
+          "no llegues",
+          "no llegue",
+          "no lleguemos",
+          "no lleguen"
+        ]
+      }
+    },
+    {
+      "verb": "pasar",
+      "tenses": {
+        "present": [
+          "paso",
+          "pasas",
+          "pasa",
+          "pasamos",
+          "pasan"
+        ],
+        "preterite": [
+          "pasé",
+          "pasaste",
+          "pasó",
+          "pasamos",
+          "pasaron"
+        ],
+        "imperfect": [
+          "pasaba",
+          "pasabas",
+          "pasaba",
+          "pasábamos",
+          "pasaban"
+        ],
+        "conditional": [
+          "pasaría",
+          "pasarías",
+          "pasaría",
+          "pasaríamos",
+          "pasarían"
+        ],
+        "future": [
+          "pasaré",
+          "pasarás",
+          "pasará",
+          "pasaremos",
+          "pasarán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "pasa",
+          "pase",
+          "pasemos",
+          "pasen"
+        ],
+        "negative": [
+          "no pases",
+          "no pase",
+          "no pasemos",
+          "no pasen"
+        ]
+      }
+    },
+    {
+      "verb": "deber",
+      "tenses": {
+        "present": [
+          "debo",
+          "debes",
+          "debe",
+          "debemos",
+          "deben"
+        ],
+        "preterite": [
+          "debí",
+          "debiste",
+          "debió",
+          "debimos",
+          "debieron"
+        ],
+        "imperfect": [
+          "debía",
+          "debías",
+          "debía",
+          "debíamos",
+          "debían"
+        ],
+        "conditional": [
+          "debería",
+          "deberías",
+          "debería",
+          "deberíamos",
+          "deberían"
+        ],
+        "future": [
+          "deberé",
+          "deberás",
+          "deberá",
+          "deberemos",
+          "deberán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "debe",
+          "deba",
+          "debamos",
+          "deban"
+        ],
+        "negative": [
+          "no debas",
+          "no deba",
+          "no debamos",
+          "no deban"
+        ]
+      }
+    },
+    {
+      "verb": "poner",
+      "tenses": {
+        "present": [
+          "pongo",
+          "pones",
+          "pone",
+          "ponemos",
+          "ponen"
+        ],
+        "preterite": [
+          "puse",
+          "pusiste",
+          "puso",
+          "pusimos",
+          "pusieron"
+        ],
+        "imperfect": [
+          "ponía",
+          "ponías",
+          "ponía",
+          "poníamos",
+          "ponían"
+        ],
+        "conditional": [
+          "pondría",
+          "pondrías",
+          "pondría",
+          "pondríamos",
+          "pondrían"
+        ],
+        "future": [
+          "pondré",
+          "pondrás",
+          "pondrá",
+          "pondremos",
+          "pondrán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "pon",
+          "ponga",
+          "pongamos",
+          "pongan"
+        ],
+        "negative": [
+          "no pongas",
+          "no ponga",
+          "no pongamos",
+          "no pongan"
+        ]
+      }
+    },
+    {
+      "verb": "parecer",
+      "tenses": {
+        "present": [
+          "parezco",
+          "pareces",
+          "parece",
+          "parecemos",
+          "parecen"
+        ],
+        "preterite": [
+          "parecí",
+          "pareciste",
+          "pareció",
+          "parecimos",
+          "parecieron"
+        ],
+        "imperfect": [
+          "parecía",
+          "parecías",
+          "parecía",
+          "parecíamos",
+          "parecían"
+        ],
+        "conditional": [
+          "parecería",
+          "parecerías",
+          "parecería",
+          "pareceríamos",
+          "parecerían"
+        ],
+        "future": [
+          "pareceré",
+          "parecerás",
+          "parecerá",
+          "pareceremos",
+          "parecerán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "parece",
+          "parezca",
+          "parezcamos",
+          "parezcan"
+        ],
+        "negative": [
+          "no parezcas",
+          "no parezca",
+          "no parezcamos",
+          "no parezcan"
+        ]
+      }
+    },
+    {
+      "verb": "quedar",
+      "tenses": {
+        "present": [
+          "quedo",
+          "quedas",
+          "queda",
+          "quedamos",
+          "quedan"
+        ],
+        "preterite": [
+          "quedé",
+          "quedaste",
+          "quedó",
+          "quedamos",
+          "quedaron"
+        ],
+        "imperfect": [
+          "quedaba",
+          "quedabas",
+          "quedaba",
+          "quedábamos",
+          "quedaban"
+        ],
+        "conditional": [
+          "quedaría",
+          "quedarías",
+          "quedaría",
+          "quedaríamos",
+          "quedarían"
+        ],
+        "future": [
+          "quedaré",
+          "quedarás",
+          "quedará",
+          "quedaremos",
+          "quedarán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "queda",
+          "quede",
+          "quedemos",
+          "queden"
+        ],
+        "negative": [
+          "no quedes",
+          "no quede",
+          "no quedemos",
+          "no queden"
+        ]
+      }
+    },
+    {
+      "verb": "creer",
+      "tenses": {
+        "present": [
+          "creo",
+          "crees",
+          "cree",
+          "creemos",
+          "creen"
+        ],
+        "preterite": [
+          "creí",
+          "creíste",
+          "creyó",
+          "creímos",
+          "creyeron"
+        ],
+        "imperfect": [
+          "creía",
+          "creías",
+          "creía",
+          "creíamos",
+          "creían"
+        ],
+        "conditional": [
+          "creería",
+          "creerías",
+          "creería",
+          "creeríamos",
+          "creerían"
+        ],
+        "future": [
+          "creeré",
+          "creerás",
+          "creerá",
+          "creeremos",
+          "creerán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "cree",
+          "crea",
+          "creamos",
+          "crean"
+        ],
+        "negative": [
+          "no creas",
+          "no crea",
+          "no creamos",
+          "no crean"
+        ]
+      }
+    },
+    {
+      "verb": "hablar",
+      "tenses": {
+        "present": [
+          "hablo",
+          "hablas",
+          "habla",
+          "hablamos",
+          "hablan"
+        ],
+        "preterite": [
+          "hablé",
+          "hablaste",
+          "habló",
+          "hablamos",
+          "hablaron"
+        ],
+        "imperfect": [
+          "hablaba",
+          "hablabas",
+          "hablaba",
+          "hablábamos",
+          "hablaban"
+        ],
+        "conditional": [
+          "hablaría",
+          "hablarías",
+          "hablaría",
+          "hablaríamos",
+          "hablarían"
+        ],
+        "future": [
+          "hablaré",
+          "hablarás",
+          "hablará",
+          "hablaremos",
+          "hablarán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "habla",
+          "hable",
+          "hablemos",
+          "hablen"
+        ],
+        "negative": [
+          "no hables",
+          "no hable",
+          "no hablemos",
+          "no hablen"
+        ]
+      }
+    },
+    {
+      "verb": "llevar",
+      "tenses": {
+        "present": [
+          "llevo",
+          "llevas",
+          "lleva",
+          "llevamos",
+          "llevan"
+        ],
+        "preterite": [
+          "llevé",
+          "llevaste",
+          "llevó",
+          "llevamos",
+          "llevaron"
+        ],
+        "imperfect": [
+          "llevaba",
+          "llevabas",
+          "llevaba",
+          "llevábamos",
+          "llevaban"
+        ],
+        "conditional": [
+          "llevaría",
+          "llevarías",
+          "llevaría",
+          "llevaríamos",
+          "llevarían"
+        ],
+        "future": [
+          "llevaré",
+          "llevarás",
+          "llevará",
+          "llevaremos",
+          "llevarán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "lleva",
+          "lleve",
+          "llevemos",
+          "lleven"
+        ],
+        "negative": [
+          "no lleves",
+          "no lleve",
+          "no llevemos",
+          "no lleven"
+        ]
+      }
+    },
+    {
+      "verb": "dejar",
+      "tenses": {
+        "present": [
+          "dejo",
+          "dejas",
+          "deja",
+          "dejamos",
+          "dejan"
+        ],
+        "preterite": [
+          "dejé",
+          "dejaste",
+          "dejó",
+          "dejamos",
+          "dejaron"
+        ],
+        "imperfect": [
+          "dejaba",
+          "dejabas",
+          "dejaba",
+          "dejábamos",
+          "dejaban"
+        ],
+        "conditional": [
+          "dejaría",
+          "dejarías",
+          "dejaría",
+          "dejaríamos",
+          "dejarían"
+        ],
+        "future": [
+          "dejaré",
+          "dejarás",
+          "dejará",
+          "dejaremos",
+          "dejarán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "deja",
+          "deje",
+          "dejemos",
+          "dejen"
+        ],
+        "negative": [
+          "no dejes",
+          "no deje",
+          "no dejemos",
+          "no dejen"
+        ]
+      }
+    },
+    {
+      "verb": "seguir",
+      "tenses": {
+        "present": [
+          "sigo",
+          "sigues",
+          "sigue",
+          "seguimos",
+          "siguen"
+        ],
+        "preterite": [
+          "seguí",
+          "seguiste",
+          "siguió",
+          "seguimos",
+          "siguieron"
+        ],
+        "imperfect": [
+          "seguía",
+          "seguías",
+          "seguía",
+          "seguíamos",
+          "seguían"
+        ],
+        "conditional": [
+          "seguiría",
+          "seguirías",
+          "seguiría",
+          "seguiríamos",
+          "seguirían"
+        ],
+        "future": [
+          "seguiré",
+          "seguirás",
+          "seguirá",
+          "seguiremos",
+          "seguirán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "sigue",
+          "siga",
+          "sigamos",
+          "sigan"
+        ],
+        "negative": [
+          "no sigas",
+          "no siga",
+          "no sigamos",
+          "no sigan"
+        ]
+      }
+    },
+    {
+      "verb": "encontrar",
+      "tenses": {
+        "present": [
+          "encuentro",
+          "encuentras",
+          "encuentra",
+          "encontramos",
+          "encuentran"
+        ],
+        "preterite": [
+          "encontré",
+          "encontraste",
+          "encontró",
+          "encontramos",
+          "encontraron"
+        ],
+        "imperfect": [
+          "encontraba",
+          "encontrabas",
+          "encontraba",
+          "encontrábamos",
+          "encontraban"
+        ],
+        "conditional": [
+          "encontraría",
+          "encontrarías",
+          "encontraría",
+          "encontraríamos",
+          "encontrarían"
+        ],
+        "future": [
+          "encontraré",
+          "encontrarás",
+          "encontrará",
+          "encontraremos",
+          "encontrarán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "encuentra",
+          "encuentre",
+          "encontremos",
+          "encuentren"
+        ],
+        "negative": [
+          "no encuentres",
+          "no encuentre",
+          "no encontremos",
+          "no encuentren"
+        ]
+      }
+    },
+    {
+      "verb": "venir",
+      "tenses": {
+        "present": [
+          "vengo",
+          "vienes",
+          "viene",
+          "venimos",
+          "vienen"
+        ],
+        "preterite": [
+          "vine",
+          "viniste",
+          "vino",
+          "vinimos",
+          "vinieron"
+        ],
+        "imperfect": [
+          "venía",
+          "venías",
+          "venía",
+          "veníamos",
+          "venían"
+        ],
+        "conditional": [
+          "vendría",
+          "vendrías",
+          "vendría",
+          "vendríamos",
+          "vendrían"
+        ],
+        "future": [
+          "vendré",
+          "vendrás",
+          "vendrá",
+          "vendremos",
+          "vendrán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "ven",
+          "venga",
+          "vengamos",
+          "vengan"
+        ],
+        "negative": [
+          "no vengas",
+          "no venga",
+          "no vengamos",
+          "no vengan"
+        ]
+      }
+    }
+  ]
+}

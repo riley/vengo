@@ -1,0 +1,60 @@
+
+const inquirer = require('inquirer');
+const fs = require('fs');
+
+const pronouns = {
+  "present": ["yo", "tú", "él/ella/usted", "nosotros/nosotras", "ellos/ellas/ustedes"],
+  "preterite": ["yo", "tú", "él/ella/usted", "nosotros/nosotras", "ellos/ellas/ustedes"],
+  "imperfect": ["yo", "tú", "él/ella/usted", "nosotros/nosotras", "ellos/ellas/ustedes"],
+  "conditional": ["yo", "tú", "él/ella/usted", "nosotros/nosotras", "ellos/ellas/ustedes"],
+  "future": ["yo", "tú", "él/ella/usted", "nosotros/nosotras", "ellos/ellas/ustedes"],
+  "imperative": ["tú", "usted", "nosotros", "ustedes"]
+};
+
+const main = async () => {
+  const verbsData = JSON.parse(fs.readFileSync('verbs.json', 'utf8'));
+  const tenses = Object.keys(verbsData.verbs[0].tenses);
+  const imperatives = Object.keys(verbsData.verbs[0].imperative);
+
+  const { tense } = await inquirer.prompt([
+    {
+      type: 'list',
+      name: 'tense',
+      message: 'Which tense would you like to practice?',
+      choices: [...tenses, ...imperatives],
+    },
+  ]);
+
+  const practice = async () => {
+    const randomVerb = verbsData.verbs[Math.floor(Math.random() * verbsData.verbs.length)];
+    const isTense = tenses.includes(tense);
+    const randomPronounIndex = Math.floor(Math.random() * (isTense ? pronouns[tense].length : pronouns.imperative.length));
+    const pronoun = isTense ? pronouns[tense][randomPronounIndex] : pronouns.imperative[randomPronounIndex];
+    const correctAnswer = isTense ? randomVerb.tenses[tense][randomPronounIndex] : randomVerb.imperative[tense][randomPronounIndex];
+
+    const { answer } = await inquirer.prompt([
+      {
+        type: 'input',
+        name: 'answer',
+        message: `Conjugate the verb "${randomVerb.verb}" for "${pronoun}" in the ${tense} tense:`,
+      },
+    ]);
+
+    if (answer.toLowerCase() === correctAnswer.toLowerCase()) {
+      console.log('Correct!');
+    } else {
+      console.log(`Incorrect. The correct answer is: ${correctAnswer}`);
+    }
+
+    practice();
+  };
+
+  setTimeout(() => {
+    console.log("Time's up! ¡Adiós!");
+    process.exit();
+  }, 300000);
+
+  practice();
+};
+
+main();
