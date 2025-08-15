@@ -15,14 +15,19 @@ const pronouns = {
 const main = async () => {
   const verbsData = JSON.parse(fs.readFileSync('verbs.json', 'utf8'));
   const tenses = Object.keys(verbsData.verbs[0].tenses);
+  const tenseDefs = JSON.parse(fs.readFileSync('tenses.json', 'utf8'));
   const imperatives = Object.keys(verbsData.verbs[0].imperative);
+
+  const choices = [...tenses, ...imperatives].map(key => {
+    return {name: `${key}: ${tenseDefs[key]}`, value: key}
+  });
 
   const { tense } = await inquirer.prompt([
     {
       type: 'list',
       name: 'tense',
       message: 'Which tense would you like to practice?',
-      choices: [...tenses, ...imperatives],
+      choices,
     },
   ]);
 
