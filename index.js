@@ -1,6 +1,7 @@
 
-const inquirer = require('inquirer');
-const fs = require('fs');
+import inquirer from 'inquirer';
+import fs from 'fs';
+import chalk from 'chalk';
 
 const pronouns = {
   "present": ["yo", "tú", "él/ella/usted", "nosotros/nosotras", "ellos/ellas/ustedes"],
@@ -36,14 +37,14 @@ const main = async () => {
       {
         type: 'input',
         name: 'answer',
-        message: `Conjugate the verb "${randomVerb.verb}" for "${pronoun}" in the ${tense} tense:`,
+        message: `${randomVerb.verb} for ${chalk.magenta(pronoun)}:`,
       },
     ]);
 
     if (answer.toLowerCase() === correctAnswer.toLowerCase()) {
-      console.log('Correct!');
+      console.log(chalk.green('Correct!'));
     } else {
-      console.log(`Incorrect. The correct answer is: ${correctAnswer}`);
+      console.log(chalk.red('Incorrect'), `The correct answer is: ${chalk.yellow(correctAnswer)}`);
     }
 
     practice();

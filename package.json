@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "type": "module",
   "dependencies": {
+    "chalk": "^5.5.0",
     "inquirer": "^8.0.0"
   }
 }
