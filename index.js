@@ -31,6 +31,9 @@ const main = async () => {
     },
   ]);
 
+  let correctAnswers = 0;
+  let totalAnswers = 0;
+
   const practice = async () => {
     const randomVerb = verbsData.verbs[Math.floor(Math.random() * verbsData.verbs.length)];
     const isTense = tenses.includes(tense);
@@ -46,8 +49,11 @@ const main = async () => {
       },
     ]);
 
+    totalAnswers++;
+
     if (answer.toLowerCase() === correctAnswer.toLowerCase()) {
       console.log(chalk.green('Correct!'));
+      correctAnswers++;
     } else {
       console.log(chalk.red('Incorrect'), `The correct answer is: ${chalk.yellow(correctAnswer)}`);
     }
@@ -56,7 +62,8 @@ const main = async () => {
   };
 
   setTimeout(() => {
-    console.log("Time's up! ¡Adiós!");
+    console.log("\nTime's up! ¡Adiós!");
+    console.log(`${correctAnswers}/${totalAnswers} (${Math.ceil(correctAnswers / totalAnswers * 100)}%)`);
     process.exit();
   }, 300000);
 

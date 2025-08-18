@@ -1351,6 +1351,60 @@
           "no vengan"
         ]
       }
+    },
+    {
+      "verb": "traer",
+      "tenses": {
+        "present": [
+          "traigo",
+          "traes",
+          "trae",
+          "traemos",
+          "traen"
+        ],
+        "preterite": [
+          "traje",
+          "trajiste",
+          "trajo",
+          "trajimos",
+          "trajeron"
+        ],
+        "imperfect": [
+          "traía",
+          "traías",
+          "traía",
+          "traíamos",
+          "traían"
+        ],
+        "conditional": [
+          "traería",
+          "traerías",
+          "traería",
+          "traeríamos",
+          "traerían"
+        ],
+        "future": [
+          "traeré",
+          "traerás",
+          "traerá",
+          "traeremos",
+          "traerán"
+        ]
+      },
+      "imperative": {
+        "affirmative": [
+          "trae",
+          "traiga",
+          "traigamos",
+          "traigan"
+        ],
+        "negative": [
+          "no traigas",
+          "no traiga",
+          "no traigamos",
+          "no traigan"
+        ]
+      }
     }
   ]
 }
